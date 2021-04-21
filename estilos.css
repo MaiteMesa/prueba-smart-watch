@@ -1,0 +1,94 @@
+htm{font-size: 16px;
+font-family: sans-serif;
+}
+
+body{background-color:rgba(41, 43, 56, 1);
+padding:1.25rem;}
+
+header{display: flex;
+justify-content: space-between;
+}
+.logo{height: 80px;
+}
+
+nav{
+    flex-basis:25vw ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+a{
+    color: white;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+main{ display: flex;
+    padding: 5rem;
+}
+
+h1{font-size: 5rem;
+color: white;}
+p{color: white;}
+h3{color: white;}
+
+.izquierda{
+    flex-grow: 0.5;
+    display: inline;
+
+}
+
+.centro{
+    flex-grow: 0.5;
+    display: flex;
+
+}
+
+
+
+.derecha{flex-grow:0.5 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menuderecha{
+    display: block
+    ;
+}
+
+.círculo{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+.azul{
+    background-color:aqua;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: greenyellow;
+}
+.lila{
+    background-color: violet;
+}
+
+
+.reloj_rojo{height: 40rem;}
+
+footer{padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{list-style-type: none;
+display: flex;
+justify-content: space-between;
+flex-basis: 25vw;
+}
+
